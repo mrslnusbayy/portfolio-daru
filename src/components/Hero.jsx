@@ -137,30 +137,30 @@ const Hero = () => {
               <motion.div 
                 variants={floatingVariants}
                 animate="animate"
-                className="absolute top-16 right-0 md:-right-4 bg-white text-slate-800 px-5 py-3 rounded-2xl shadow-sm z-20 flex items-center gap-3 border border-slate-100 hidden md:flex"
+                className="absolute top-16 -right-2 md:-right-4 bg-white text-slate-800 px-3 py-2 md:px-5 md:py-3 rounded-xl md:rounded-2xl shadow-sm z-20 flex items-center gap-2 md:gap-3 border border-slate-100"
               >
-                <Code2 size={20} className="text-slate-600" />
-                <span className="font-semibold text-sm">Full-Stack Developer</span>
+                <Code2 className="text-slate-600 w-4 h-4 md:w-5 md:h-5" />
+                <span className="font-semibold text-xs md:text-sm">Full-Stack Developer</span>
               </motion.div>
 
               {/* Floating Badge 2 - Bottom Left */}
               <motion.div 
                 variants={floatingVariantsDelay}
                 animate="animate"
-                className="absolute bottom-32 left-0 md:-left-8 bg-white text-slate-800 px-5 py-3 rounded-2xl shadow-sm z-20 flex items-center gap-3 border border-slate-100 hidden md:flex"
+                className="absolute bottom-28 -left-2 md:-left-8 bg-white text-slate-800 px-3 py-2 md:px-5 md:py-3 rounded-xl md:rounded-2xl shadow-sm z-20 flex items-center gap-2 md:gap-3 border border-slate-100"
               >
-                <Paintbrush size={20} className="text-slate-600" />
-                <span className="font-semibold text-sm">UI/UX Designer</span>
+                <Paintbrush className="text-slate-600 w-4 h-4 md:w-5 md:h-5" />
+                <span className="font-semibold text-xs md:text-sm">UI/UX Designer</span>
               </motion.div>
 
               {/* Floating Badge 3 - Bottom Right */}
               <motion.div 
                 variants={floatingVariants}
                 animate="animate"
-                className="absolute bottom-16 right-4 md:-right-4 bg-white text-slate-800 px-5 py-3 rounded-2xl shadow-sm z-20 flex items-center gap-3 border border-slate-100"
+                className="absolute bottom-12 -right-2 md:-right-4 bg-white text-slate-800 px-3 py-2 md:px-5 md:py-3 rounded-xl md:rounded-2xl shadow-sm z-20 flex items-center gap-2 md:gap-3 border border-slate-100"
               >
-                <PenTool size={20} className="text-slate-600" />
-                <span className="font-semibold text-sm">Graphic Designer</span>
+                <PenTool className="text-slate-600 w-4 h-4 md:w-5 md:h-5" />
+                <span className="font-semibold text-xs md:text-sm">Graphic Designer</span>
               </motion.div>
             </div>
           </div>
